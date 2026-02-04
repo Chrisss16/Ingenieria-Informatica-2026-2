@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class ConvertLength {
+public class Length_converter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int feet,inches;
-		float cm;
+		double cm;
 		
 		Scanner input = new Scanner(System.in); 
 		System.out.println("Ingrese los pies: ");
