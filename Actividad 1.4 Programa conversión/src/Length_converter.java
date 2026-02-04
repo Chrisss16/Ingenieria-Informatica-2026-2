@@ -15,7 +15,7 @@ public class Length_converter {
 		
 		cm= ((feet*12)+inches)*2.54;
 		
-		System.out.println("El total fue: ");
+		System.out.println("El total fue: " +cm +" cm");
 	}
 
 }
