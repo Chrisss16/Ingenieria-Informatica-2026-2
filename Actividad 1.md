@@ -2,7 +2,7 @@
 
 Objetivo: Verificar que el estudiante domina los conceptos fundamentales.
 
-#Instrucciones
+# Instrucciones
 
 Despues de leer los archivos que están en el directorio de materiales. Responde brevemente (máx. 3–5 líneas por pregunta):
 
