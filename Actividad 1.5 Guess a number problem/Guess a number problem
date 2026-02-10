@@ -1,0 +1,38 @@
+Adivinar el número
+
+Enunciado
+	El programa genera un número aleatorio entre 1 y 100.
+	El usuario debe adivinarlo ingresando valores por teclado.
+	El sistema indica si el número es mayor o menor hasta que se acierta.
+
+Entradas
+	Número entero ingresado por el usuario.
+
+Salidas
+	Mensajes indicando si el número es mayor o menor.
+	Mensaje de felicitación al acertar.
+
+Variables
+	Variable	Tipo	Descripción
+	num	int	Número aleatorio
+	ad	int	Número ingresado
+	input	Scanner	Lectura de datos
+
+Análisis
+	El programa debe generar un número aleatorio usando la función Math.random().
+	Posteriormente, se utilizará un ciclo while para permitir que el usuario introduzca múltiples intentos hasta que el valor ingresado sea igual al número generado.
+	En cada iteración:
+	Si el número ingresado es mayor que el número aleatorio, se mostrará un mensaje indicando que el número buscado es menor.
+	Si el número ingresado es menor que el número aleatorio, se mostrará un mensaje indicando que el número buscado es mayor.
+	El ciclo termina cuando el usuario adivina el número correcto.
+
+Diseño del algoritmo (pasos)
+	Inicializar el objeto Scanner.
+	Generar un número aleatorio entre 0 y 99.
+	Inicializar la variable del intento con un valor diferente al número aleatorio.
+	Mostrar un mensaje inicial.
+	Mientras el número ingresado sea diferente al número aleatorio:
+	Solicitar al usuario un número.
+	Comparar el número ingresado con el número aleatorio.
+	Mostrar el mensaje correspondiente.
+	Mostrar un mensaje de felicitación al acertar.
