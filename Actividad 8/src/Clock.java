@@ -23,7 +23,7 @@ public class Clock {
 		this.hours = hours;
 		this.minutes = minutes;
 		this.seconds = seconds;
-	}
+	} //hola
 	
 	public int getHour() {
 		return hours;
