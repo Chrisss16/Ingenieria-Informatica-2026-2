@@ -5,5 +5,5 @@ public class Fruit {
 	float weight;
 	int sweetnesslevel;
 	String countryorigin;
-	NI nutritionalinformation
+	NI nutritionalinformation;
 }
